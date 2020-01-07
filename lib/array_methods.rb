@@ -1,24 +1,19 @@
-def find_element_index(array, value_to_find)
-  array.index(value_to_find)
-end
-
-  # array.length.time do |index|
-  # array.index(value_to_find)
-  # end
-  # array.length.times { |value_to_find|
-  #   array.index(value_to_find)
-  # }
+require 'pry'
+def find_element_index(arr, value_to_find)
+  # binding.pry
+  # arr.length.times do |element|
+  #   element == value_to_find
+  # arr.index{|element| element == value_to_find}
   
-def find_max_value(array)
-  array.max
+  # arr.length.times { |value_to_find|
+     arr.index(value_to_find)
+  # }
 end
 
-def find_min_value(array)
-  array.min
+def find_max_value(arr)
+  arr.max
 end
 
-# array = [1,2,3,4,5]
- 
-# array.length.times { |index|
-#   puts array[index]
-# }
+def find_min_value(arr)
+  arr.min
+end
